@@ -28,7 +28,8 @@ A simple Library Management System implemented in Python (or your language of ch
 
 ## Class Diagram
 
-<img width="1333" height="747" alt="image" src="https://github.com/user-attachments/assets/dfbb3ae0-d4bf-4404-a027-d0f11705ab79" />
+<img width="1311" height="726" alt="image" src="https://github.com/user-attachments/assets/05e20dcf-d74b-44bf-87ea-28e31180346b" />
+
 
 
 ---
