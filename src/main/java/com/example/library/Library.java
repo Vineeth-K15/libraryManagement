@@ -1,7 +1,7 @@
 package main.java.com.example.library;
 
 public class Library {
-  private Inventory inventory;
+    private Inventory inventory;
     private BookSearchService searchService;
     private PatronManager patronManager;
     private LendingService lendingService;
@@ -10,7 +10,7 @@ public class Library {
         this.inventory = new Inventory();
         this.patronManager = new PatronManager();
         this.searchService = new BookSearchService(inventory);
-        this.lendingService = new LendingService();
+        this.lendingService = new LendingService(inventory);
     }
 
     public static void main(String[] args) {
